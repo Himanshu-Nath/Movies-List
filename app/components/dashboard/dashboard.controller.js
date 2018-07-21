@@ -25,7 +25,6 @@ angular.module('moviesApp')
         pageNumber = pageNumber == undefined ? 1 : pageNumber;
         DashboardService.getMoviesList(pageNumber)
           .then(function (response) {
-            console.log(response);
             if (response != undefined && response.status != false) {
               for (let movie of response.page['content-items'].content) {
                 vm.movies.push(movie)
