@@ -1,0 +1,26 @@
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+}
+
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+}
+
+.bg-color {
+    background: #343A40;
+    color: white;
+}
+
+.top-margin {
+    margin-top: 56px;
+}
+
+.small-text {
+    font-size: 12px;
+}
