@@ -13,14 +13,47 @@
 }
 
 .bg-color {
-    background: #343A40;
+    background: black;
     color: white;
 }
 
 .top-margin {
-    margin-top: 56px;
+    margin-top: 60px;
 }
 
 .small-text {
     font-size: 12px;
+}
+
+.font-movie-title {
+    font-size: 14px;
+}
+
+.font-app-title {
+    font-size: 19px;
+}
+
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: black;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.images-padding {
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 9px;
 }
